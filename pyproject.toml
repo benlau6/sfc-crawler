@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "crawler"
+version = "0.1.0"
+description = ""
+authors = ["benlau6 <benyplau@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+scrapy = "^2.7.1"
+rich = "^12.6.0"
+requests = "^2.28.1"
+pymongo = "^4.3.2"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^5.0.4"
+black = "^22.10.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
